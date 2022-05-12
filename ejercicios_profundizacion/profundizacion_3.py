@@ -46,6 +46,9 @@ Tambien se lo conoce como el proceso de transformar variable numéricas en categ
 en análisis de datos.
 '''
 
+from re import X
+
+
 if __name__ == '__main__':
     print("Acercamiento al uso de datos relacionales")
 
@@ -62,5 +65,12 @@ if __name__ == '__main__':
     # A partir de aquí escriba el código que resuelve el enunciado
     # Leer el enunciado con atención y consultar cualquier duda
 
+    # lista_reducida = [x.get('id', '') for x in dataset]
+
+    #lista_compra_productos = [x.get(k, 'NaN') for x in
+
+    lista_compra_productos = [producto.get(x, 'Nan') for x in lista_compra_id]
+    
+    print(lista_compra_productos)
 
     print("terminamos")

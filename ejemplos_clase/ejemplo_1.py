@@ -77,6 +77,9 @@ def numpy_mask():
     print("terminamos numpy_mask")
 
 
+
+
+
 if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     
@@ -85,3 +88,6 @@ if __name__ == '__main__':
     numpy_mask()
 
     print("terminamos")
+
+
+
